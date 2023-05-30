@@ -1,0 +1,28 @@
+ /* body{
+    background-color: black;
+ } */
+ .banner{
+    background-color: black;
+     width: 100%;
+     height: 90vh;
+ }
+
+  
+ .row .col{
+    width: 300px;
+ }
+ .row .col .card img{
+    margin: 4px 0;
+ /* border: 4px solid  black; */
+ object-fit:fill;
+ }
+ 
+ .row .col .card{
+    border: 1px solid white;
+ }
+ @media only screen and (max-width: 300px){
+    .col .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
